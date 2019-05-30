@@ -9,7 +9,7 @@ srcDir        = "src"
 
 # Dependencies
 
-requires "nim >= 0.19.9"
+requires "nim >= 0.19.6"
 
 task test, "Run tests":
     exec """nim cpp -r -o:test --passC:-std=c++11 tests/tvector.nim"""
